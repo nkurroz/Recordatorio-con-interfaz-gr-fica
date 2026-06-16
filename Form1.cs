@@ -30,7 +30,7 @@ public partial class Form1 : Form
             {
                 dialog.ShowDialog(this);
             }
-        };
+        }
         
         this.Controls.Add(btnMostrar);
     }

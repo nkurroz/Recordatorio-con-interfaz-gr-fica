@@ -61,7 +61,7 @@ public class DialogoRecordatorio : Form
         }
         catch 
         {
-            // Por si se te olvida poner la imagen, que no explote el programa
+            // Por si el programa no encuentra la imagen, que no explote el programa
             Label lblErrorImg = new Label() { Text = "(Falta imagen)", Location = new Point(100, 50) };
             this.Controls.Add(lblErrorImg);
         }
